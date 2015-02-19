@@ -4,9 +4,9 @@
   %th{:scope=>"row"}
     - unless service_info.watched_modified_files.empty?
       %span.danger{:title => service_info.watched_modified_files.map { |rec| "#{rec[:path]} #{I18n.l(rec[:mtime])}" }.join(', ')}
-        = h(service_info.name)
+        =  '→ ' + h(service_info.name)
     - else
-      = h(service_info.name)
+      =  '→ ' + h(service_info.name)
   %td= service_info.started_at ? service_info.started_at.utc : ''
   %td= service_info.uptime ? ('%.2f' % service_info.uptime) : ''
   %td= stat_subst(service_info.stat)

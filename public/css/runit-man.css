@@ -13,3 +13,23 @@ span.danger {color:red;}
 
 #services { text-align: center; }
 
+.country {
+  /*background-color: lightblue;*/
+  /*text-align: center;*/
+  size: 1.5em;
+  height: 20px !important;
+}
+.stage {
+  /*background-color: red;*/
+  /*text-align: left;*/
+  padding-left: 50px !important;
+  height: 15px !important;
+  /*font-size: 1.2em;*/
+}
+.app{
+  height: 10px !important;
+  padding-left: 70px !important;
+  /*background-color: lightgreen;*/
+  /*text-align: center;*/
+  /*font-size: 1em;*/
+}
